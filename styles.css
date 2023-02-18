@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Press+Start+2P&display=swap');
+
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Press Start 2P', cursive;
+
+*/
+
+/* Fonts */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(61, 61, 61);
+}
+
+h1{
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.instruction{
+    text-align: center;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75rem;
+}
+
+.diceContainer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerContainer{
+    margin: 10px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.players{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+}
+
+img{
+    width: 70%;
+    margin: 10px;
+}
+
+
+
+footer{
+    text-align: center;
+    margin: 40px 0;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75rem;
+}
